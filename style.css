@@ -1,0 +1,42 @@
+main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+}
+
+body,h1{
+    margin: 0;
+}
+
+.navbar{
+    background-color: #464242;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.navbar img{
+   width: 40px;
+   
+}
+
+.navbar h1{
+    font-size: 2rem;
+    
+}
+
+.capa{
+    width: 300px;
+    
+}
+
+.form-login{
+    text-align: center;
+}
+
+.login-h1{
+    text-align: center;
+}
