@@ -35,8 +35,72 @@ body,h1{
 
 .form-login{
     text-align: center;
+
+
 }
 
 .login-h1{
     text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 10px;
+} 
+input{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    margin-bottom: 5px;
+}
+.form-group input{
+ padding: 10px;
+}
+.form-container{
+    background-color: #464242;
+    padding: 20px;
+    border: 1px solid #757070;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 40px auto;
+}
+
+.auth-links {
+  text-align: right;
+  margin: 10px;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: #337ab7;
+  margin: 0 10px;
+}
+
+.auth-links a:hover {
+  color: #23527c;
+}
+
+.login-link {
+  
+}
+
+.register-link {
+  
+  background-color: #337ab7;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.register-link:hover {
+  background-color: #a1aab3;
 }
